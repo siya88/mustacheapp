@@ -1,0 +1,25 @@
+body{
+    background-image:url("mmm.jpeg");
+}
+
+.btn-danger:hover{
+
+    background-color: rgb(114, 166, 234);
+
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 40px rgb(43, 139, 224);
+
+    }
+    to{
+        box-shadow: 1px 1px 40px rgb(240, 175, 175);
+    }
+}
