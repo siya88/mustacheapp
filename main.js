@@ -18,6 +18,7 @@ function takesnapshot(){
 
 function draw(){
     image(video, 0, 0, 400,400)
+    image(mustache,nosex-155,nosey-55, 60,50  )
 }
 function modelloaded(){
     console.log("model is ready")
@@ -32,3 +33,8 @@ function gotPoses(results){
 
     }
 }
+
+function preload(){
+    mustache=loadImage('https://i.postimg.cc/3x3QzSGq/m.png');
+}
+
